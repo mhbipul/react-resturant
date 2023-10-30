@@ -15,6 +15,11 @@
     color: whitesmoke;
 }
 
+.active{
+    color: goldenrod !important;
+    font-weight: bold !important;
+}
+
 /* mobile view  */
 .mobile-navigation{
     list-style: none;

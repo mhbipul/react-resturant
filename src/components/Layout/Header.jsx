@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link,NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import Logo from "../../images/logo.svg";
 import "../../styles/HeaderStyle.css";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -37,7 +37,7 @@ const Header = () => {
       <Box>
       <ul className="mobile-navigation">
         <li>
-          <NavLink to={"/"}> Home </NavLink>
+          <NavLink activeClassName="active" to={"/"}> Home </NavLink>
         </li>
         <li>
           <NavLink to={"/menu"}> Menu </NavLink>
